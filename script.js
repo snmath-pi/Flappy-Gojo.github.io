@@ -147,7 +147,7 @@ function placePipes() {
 }
 
 function movegojo(e) {
-    if(e.code == "Space" || e.code=="ArrowUp" || e.code=="KeyX") {
+    if(e.code == "Space" || e.code=="ArrowUp" || e.code=="KeyX" || e.code=="onmousedown"||e.code=="onclick") {
         // jump
         velocityY=-6;
 
