@@ -165,3 +165,9 @@ function movegojo(e) {
 function detectCollision(a, b) {
     return a.x < b.x+b.width&&a.x+a.width>b.x&&a.y<b.y+b.height&&a.y+a.height>b.y
 }
+function playSound(audioName) {
+    let audio = new Audio(audioName);
+    audio.loop = true;
+    audio.play();
+}
+playSound("./Jujutsu Kaisen OST - Satoru Gojo's Hollow Purple Theme (Full).mp3")
