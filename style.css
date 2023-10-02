@@ -1,0 +1,14 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    /* background-color: black; */
+    /* background-image: linear-gradient(white, pink); */
+
+}
+
+#board {
+    /* background-color: skyblue; */
+    background-image: url("./flappybirdbg.png");
+    /* background-image: url("./flappygojo-removebg-preview.png") */
+
+}
