@@ -168,4 +168,4 @@ function detectCollision(a, b) {
 
 setTimeout(function(){
     document.getElementById("my_audio").play();
-}, 100)
+}, 8000)
