@@ -170,4 +170,4 @@ function playSound(audioName) {
     audio.loop = true;
     audio.play();
 }
-playSound("./Jujutsu Kaisen OST - Satoru Gojo's Hollow Purple Theme (Full).mp3")
+playSound("./TVアニメ呪術廻戦第2期渋谷事変ノンクレジットOPムービーOPテーマKing\ GnuSPECIALZ毎週木曜夜11時56分MBSTBS系列全国28局にて放送中!!.mp3");
