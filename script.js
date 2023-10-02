@@ -165,9 +165,7 @@ function movegojo(e) {
 function detectCollision(a, b) {
     return a.x < b.x+b.width&&a.x+a.width>b.x&&a.y<b.y+b.height&&a.y+a.height>b.y
 }
-function playSound(audioName) {
-    let audio = new Audio(audioName);
-    audio.loop = true;
-    audio.play();
-}
-playSound("./TVアニメ呪術廻戦第2期渋谷事変ノンクレジットOPムービーOPテーマKing\ GnuSPECIALZ毎週木曜夜11時56分MBSTBS系列全国28局にて放送中!!.mp3");
+
+setTimeout(function(){
+    document.getElementById("my_audio").play();
+}, 100)
