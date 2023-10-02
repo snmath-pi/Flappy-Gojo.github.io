@@ -3,12 +3,16 @@ body {
     text-align: center;
     /* background-color: black; */
     /* background-image: linear-gradient(white, pink); */
+    /* background-image: url("./gogo28.png"); */
+    background-image: url("./gojopfpppp.jpg");
 
 }
 
 #board {
     /* background-color: skyblue; */
     background-image: url("./flappybirdbg.png");
+    border-radius: 20px;
     /* background-image: url("./flappygojo-removebg-preview.png") */
+    
 
 }
